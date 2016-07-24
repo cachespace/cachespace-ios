@@ -12,6 +12,10 @@
 		883026F61D44AA65000E8273 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883026F41D44AA65000E8273 /* Main.storyboard */; };
 		883026F81D44AA65000E8273 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883026F71D44AA65000E8273 /* Assets.xcassets */; };
 		883026FB1D44AA65000E8273 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883026F91D44AA65000E8273 /* LaunchScreen.storyboard */; };
+		8898F0351D4515DB0072D5F2 /* Bariol_Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8898F0321D4515DB0072D5F2 /* Bariol_Bold.otf */; };
+		8898F0361D4515DB0072D5F2 /* Bariol_Regular_Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8898F0331D4515DB0072D5F2 /* Bariol_Regular_Italic.otf */; };
+		8898F0371D4515DB0072D5F2 /* bariol_regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8898F0341D4515DB0072D5F2 /* bariol_regular-webfont.ttf */; };
+		8898F0391D4526FB0072D5F2 /* ReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8898F0381D4526FB0072D5F2 /* ReaderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		883026F71D44AA65000E8273 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		883026FA1D44AA65000E8273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		883026FC1D44AA65000E8273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8898F0321D4515DB0072D5F2 /* Bariol_Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bariol_Bold.otf; sourceTree = "<group>"; };
+		8898F0331D4515DB0072D5F2 /* Bariol_Regular_Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bariol_Regular_Italic.otf; sourceTree = "<group>"; };
+		8898F0341D4515DB0072D5F2 /* bariol_regular-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bariol_regular-webfont.ttf"; sourceTree = "<group>"; };
+		8898F0381D4526FB0072D5F2 /* ReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReaderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,26 @@
 		883026EF1D44AA65000E8273 /* Cachespace */ = {
 			isa = PBXGroup;
 			children = (
+				8898F0311D4515AA0072D5F2 /* Font */,
 				883026F01D44AA65000E8273 /* AppDelegate.swift */,
 				883026F21D44AA65000E8273 /* ViewController.swift */,
 				883026F41D44AA65000E8273 /* Main.storyboard */,
 				883026F71D44AA65000E8273 /* Assets.xcassets */,
 				883026F91D44AA65000E8273 /* LaunchScreen.storyboard */,
 				883026FC1D44AA65000E8273 /* Info.plist */,
+				8898F0381D4526FB0072D5F2 /* ReaderViewController.swift */,
 			);
 			path = Cachespace;
+			sourceTree = "<group>";
+		};
+		8898F0311D4515AA0072D5F2 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				8898F0321D4515DB0072D5F2 /* Bariol_Bold.otf */,
+				8898F0331D4515DB0072D5F2 /* Bariol_Regular_Italic.otf */,
+				8898F0341D4515DB0072D5F2 /* bariol_regular-webfont.ttf */,
+			);
+			name = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +144,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				883026FB1D44AA65000E8273 /* LaunchScreen.storyboard in Resources */,
+				8898F0361D4515DB0072D5F2 /* Bariol_Regular_Italic.otf in Resources */,
+				8898F0371D4515DB0072D5F2 /* bariol_regular-webfont.ttf in Resources */,
 				883026F81D44AA65000E8273 /* Assets.xcassets in Resources */,
 				883026F61D44AA65000E8273 /* Main.storyboard in Resources */,
+				8898F0351D4515DB0072D5F2 /* Bariol_Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +161,7 @@
 			files = (
 				883026F31D44AA65000E8273 /* ViewController.swift in Sources */,
 				883026F11D44AA65000E8273 /* AppDelegate.swift in Sources */,
+				8898F0391D4526FB0072D5F2 /* ReaderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +313,7 @@
 				883027011D44AA65000E8273 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
